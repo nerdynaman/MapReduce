@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package mapreduce;
+
+message MapperInput {
+  string startIndex = 1;
+  string endIndex = 2;
+  string oldCentroids = 3;
+  string numReducer = 4;
+}
+
+message MapperOutput {
+  bool success = 1;
+}
