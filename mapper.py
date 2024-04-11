@@ -62,10 +62,14 @@ def partitionData(numReducer, mapperID):
 		data = f.readlines()
 	dataLen = len(data)
 	dataPerMapper = dataLen // numReducer
-	# partition data for each reducer
-	for i in range(numReducer):
-		with open(f'Data/Mapper/M{mapperID}/reducer{i}.txt', 'w') as f:
-			for j in range(i*dataPerMapper, (i+1)*dataPerMapper):
-				f.write(data[j])
+	# partition data for each reducer with partition function: key % numReducer
+	for i in range(dataLen):
+		key = int(data[i].split()[0])
+		with open(f'Data/Mapper/M{mapperID}/reducer{key % numReducer}.txt', 'a') as f:
+			f.write(data[i])
 	return
 
+# Example usage
+if __name__ == "__main__":
+    map(0,15,[(1,2),(3,4),(5,6),(7,8)],0)  # Run reducer with ID 1
+    partitionData(3,0)  # Run reducer with ID 1
