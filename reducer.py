@@ -58,7 +58,12 @@ def reduce(reducerID, numMapper):
         for centroid_id, centroid in updated_centroids.items():
             f.write(f"{centroid_id} {' '.join(map(str, centroid))}\n")
     
-    return
+    final_string = ""
+    for centroid_id, centroid in updated_centroids.items():
+        final_string += f"({','.join(map(str, centroid))})"
+    
+    print("final="+final_string)
+    return final_string
 
 # Example usage
 if __name__ == "__main__":
