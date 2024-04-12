@@ -1,9 +1,8 @@
 import os
 
-def reduce(reducerID, numMapper):
+def shuffleSort(reducerID, numMapper):
     '''
-    Applies the Reduce function to process intermediate data received from mappers.
-    Generates final output with updated centroids.
+    Shuffles and sorts the data based on the key.
     '''
     # Check if directory Reducers exists, otherwise create it
     if not os.path.exists('Data/Reducers'):
@@ -20,6 +19,20 @@ def reduce(reducerID, numMapper):
     # Sort intermediate data by key
     intermediate_data.sort(key=lambda x: int(x.split()[0]))
 
+    return intermediate_data
+
+def reduce(reducerID, numMapper):
+    '''
+    Applies the Reduce function to process intermediate data received from mappers.
+    Generates final output with updated centroids.
+    '''
+    reducerID = int(reducerID)
+    numMapper = int(numMapper)
+    
+    # Shuffle and sort intermediate data
+    intermediate_data = shuffleSort(reducerID, numMapper)
+    print(intermediate_data)
+    
     # Apply Reduce function and generate final output with updated centroids
     centroids = {}
     for line in intermediate_data:
@@ -30,16 +43,22 @@ def reduce(reducerID, numMapper):
         else:
             centroids[centroid_id].append(point)
     
+    print(centroids)
+    
     # Compute updated centroids
     updated_centroids = {}
     for centroid_id, points in centroids.items():
         updated_centroid = [sum(x) / len(points) for x in zip(*points)]
         updated_centroids[centroid_id] = updated_centroid
     
+    print(updated_centroids)
+    
     # Write final output with updated centroids
     with open(f'Data/Reducers/R{reducerID}.txt', 'w') as f:
         for centroid_id, centroid in updated_centroids.items():
             f.write(f"{centroid_id} {' '.join(map(str, centroid))}\n")
+    
+    return
 
 # Example usage
 if __name__ == "__main__":

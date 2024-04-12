@@ -14,8 +14,8 @@ message MapperOutput {
 }
 
 message ReduceRequest {
-  string key = 1;
-  repeated string value = 2;
+  string reducerId = 1;
+  string numMapper = 2;
 }
 
 message ReduceResponse {
