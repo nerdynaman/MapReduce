@@ -171,5 +171,11 @@ if __name__ == '__main__':
     Centroid_count = int(input("No. of Centroids: "))
     Iteration_count = int(input("No. of Iterations: "))
     Master_init = Master(Mapper_count, Reducer_count, Centroid_count, Iteration_count)
+    for i in range(Mapper_count):
+        Master_init.mapper_channel_mapping[i] = grpc.insecure_channel(input(f"Enter Mapper {i} ip address with port number:"))
+        Master_init.mapper_dict[i] = True
+    for i in range(Reducer_count):
+        Master_init.Reducer_dict[i] = True
+        Master_init.Reducer_channel_mapping[i] = grpc.insecure_channel(input(f"Enter Reducer {i} ip address with port number:"))
     file_path = "" #add file path
     Master_init.Master_in_action(file_path)
