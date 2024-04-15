@@ -8,12 +8,21 @@ import raft_pb2_grpc
 import mapper
 import master
 import reducer
+import mapper_pb2
+from mapper_pb2_grpc import MapReduceStub
 
 class Node:
 	def __init__(self, id, port):
 		self.id = id
 		self.port = port
 	
+	def getDataResponse(self, request):
+		print(f"Request received for reducer {request.reducerID}")
+		
+		reducerID = request.reducerID
+		data = mapper.getData(reducerID=reducerID, mapperID=self.id)
+		return mapper_pb2.RequestPartitionDataResponse(data=data)
+
 	def map(self, request, context):
 		oldCentroids = request.oldCentroids
 		startIndex = request.startIndex

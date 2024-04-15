@@ -1,5 +1,20 @@
 import os
 
+def getData(reducerID, mapperID):
+	with open(f'Data/Mapper/M{mapperID}/reducer{reducerID}.txt', 'r') as f:
+		data = f.readlines()
+	# data = ['1 0.4,7.2\n', '2 0.8,9.8\n', '1 -1.5,7.3\n', '2 8.1,3.4\n', '2 7.3,2.3\n']
+
+	result = []
+	for item in data:
+		parts = item.strip().split()
+		key = parts[0]
+		coordinates = tuple(map(float, parts[1].split(',')))
+		result.append(f"({key},({coordinates[0]},{coordinates[1]}))")
+
+	output = ",".join(result)
+	return(output)
+
 def distance(a, b):
 	'''
 	return the Euclidean distance between two data points a and b.
@@ -24,7 +39,7 @@ def findNearestCentroid(data, oldCentroids):
 			nearestCentroid = j
 	return nearestCentroid
 
-def map(readIndiceA, readIndiceB, oldCentroids, mapperID):
+def mapper(readIndiceA, readIndiceB, oldCentroids, mapperID):
 	'''
 	return a list of tuples, each tuple contains key, value pair.
 	Key: index of the nearest centroid to which the data point belongs
@@ -71,5 +86,6 @@ def partitionData(numReducer, mapperID):
 
 # Example usage
 if __name__ == "__main__":
-    map(0,15,[(1,2),(3,4),(5,6),(7,8)],0)  # Run reducer with ID 1
-    partitionData(3,0)  # Run reducer with ID 1
+    # map(0,15,[(1,2),(3,4),(5,6),(7,8)],0)  # Run reducer with ID 1
+    # partitionData(3,0)  # Run reducer with ID 1
+    getData(0,0)
