@@ -55,13 +55,13 @@ def shuffleSort(reducerID, numMapper):
     
     # Read intermediate data from mapper outputs
     intermediate_data = []
-    for mapper_id in range(numMapper):  # Assuming there are 3 mappers (M1, M2, M3)
-        for filename in os.listdir(f'Data/Mapper/M{mapper_id}'):
-            if filename.startswith(f"reducer{reducerID}"):
-                with open(f'Data/Mapper/M{mapper_id}/{filename}', 'r') as f:
-                    intermediate_data.extend(f.readlines())
+    # for mapper_id in range(numMapper):  # Assuming there are 3 mappers (M1, M2, M3)
+    #     for filename in os.listdir(f'Data/Mapper/M{mapper_id}'):
+    #         if filename.startswith(f"reducer{reducerID}"):
+    #             with open(f'Data/Mapper/M{mapper_id}/{filename}', 'r') as f:
+    #                 intermediate_data.extend(f.readlines())
     
-    # intermediate_data = RequestPartitionData(reducerID, numMapper)
+    intermediate_data = RequestPartitionData(reducerID, numMapper)
     print(intermediate_data)
     # Sort intermediate data by key
     intermediate_data.sort(key=lambda x: int(x.split()[0]))
