@@ -1,4 +1,26 @@
 import os
+import grpc
+from mapper_pb2 import MapperRequest
+from mapper_pb2_grpc import MapperStub
+
+def getData(reducerID, numMapper):
+    '''
+    Sends a request to all the Mapper nodes to get the data.
+    '''
+    data = []
+    for i in range(numMapper):
+        channel = grpc.insecure_channel(f'localhost:5005{i}')
+        # Create a stub for the mapper service
+        stub = MapperStub(channel)
+        request = MapperRequest(reducerID=reducerID)
+        try:
+            response = stub.RequestPartitionData(request)
+            data.extend(response.data)
+            print(response.data)
+        except grpc.RpcError:
+            print(f"FAIL: Mapper {i}")
+    
+    return data
 
 def shuffleSort(reducerID, numMapper):
     '''
@@ -16,10 +38,22 @@ def shuffleSort(reducerID, numMapper):
                 with open(f'Data/Mapper/M{mapper_id}/{filename}', 'r') as f:
                     intermediate_data.extend(f.readlines())
     
+    # intermediate_data = getData(reducerID, numMapper)
+    print(intermediate_data)
     # Sort intermediate data by key
     intermediate_data.sort(key=lambda x: int(x.split()[0]))
 
     return intermediate_data
+
+def reduce_logic(value, key):
+    '''
+    Applies the Reduce function to process intermediate data received from mappers.
+    Generates final output with updated centroids.
+    '''
+    # Compute the updated centroid
+    updated_centroid = [sum(x) / len(value) for x in zip(*value)]
+    
+    return updated_centroid, key
 
 def reduce(reducerID, numMapper):
     '''
@@ -48,7 +82,8 @@ def reduce(reducerID, numMapper):
     # Compute updated centroids
     updated_centroids = {}
     for centroid_id, points in centroids.items():
-        updated_centroid = [sum(x) / len(points) for x in zip(*points)]
+        # updated_centroid = [sum(x) / len(points) for x in zip(*points)]
+        updated_centroid, x = reduce_logic(points, centroid_id)
         updated_centroids[centroid_id] = updated_centroid
     
     print(updated_centroids)
@@ -60,7 +95,8 @@ def reduce(reducerID, numMapper):
     
     final_string = ""
     for centroid_id, centroid in updated_centroids.items():
-        final_string += f"({','.join(map(str, centroid))})"
+        final_string += f"({','.join(map(str, centroid))}),"
+    final_string = final_string[:-1]
     
     print("final="+final_string)
     return final_string

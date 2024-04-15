@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message RequestPartitionDataRequest {
+    string partitionId = 1;
+}
+
+message RequestPartitionDataResponse {
+    string data = 1;
+}
+
+service MapReduce {
+    rpc RequestPartitionData(RequestPartitionDataRequest) returns (RequestPartitionDataResponse);
+}
