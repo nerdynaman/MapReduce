@@ -8,6 +8,7 @@ import raft_pb2_grpc
 import mapper
 import master
 import reducer
+import random
 # import mapper_pb2
 # from mapper_pb2_grpc import MapReduceStub
 
@@ -26,6 +27,10 @@ class Node:
 	def map(self, request, context):
 		try:
 			print(f"Request received for mapper {self.id}")
+			# # have a probability flag of 0.5 to simulate failure
+			if random.random() < 0.5:
+				print(f"Mapper {self.id} failed")
+				return raft_pb2.MapperOutput(success=False)
 			oldCentroids = request.oldCentroids
 			startIndex = request.startIndex
 			endIndex = request.endIndex

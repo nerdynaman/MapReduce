@@ -76,7 +76,7 @@ def shuffleSort(reducerID, numMapper):
     #                 intermediate_data.extend(f.readlines())
     
     intermediate_data = getPartitionData(reducerID, numMapper)
-    print(intermediate_data)
+    # print(intermediate_data)
     # Sort intermediate data by key
     intermediate_data.sort(key=lambda x: int(x.split()[0]))
 
@@ -102,7 +102,7 @@ def reduce(reducerID, numMapper):
     
     # Shuffle and sort intermediate data
     intermediate_data = shuffleSort(reducerID, numMapper)
-    print(intermediate_data)
+    # print(intermediate_data)
     
     # Apply Reduce function and generate final output with updated centroids
     centroids = {}

@@ -86,6 +86,10 @@ def partitionData(numReducer, mapperID):
 	dataLen = len(data)
 	dataPerMapper = dataLen // numReducer
 	# partition data for each reducer with partition function: key % numReducer
+	# create all files if they dont exist
+	for i in range(numReducer):
+		with open(f'Data/Mapper/M{mapperID}/reducer{i}.txt', 'w') as f:
+			pass
 	for i in range(dataLen):
 		key = int(data[i].split()[0])
 		with open(f'Data/Mapper/M{mapperID}/reducer{key % numReducer}.txt', 'a') as f:
