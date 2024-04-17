@@ -11,9 +11,12 @@ def convertBack(output):
 
     original_list = []
     for item in items:
+        if len(item) == 0:
+            continue
         # Remove parentheses and split into key and coordinates
         item = item.replace('(', '')
         item = item.replace(')', '')
+        print(item)
         key, x, y = item.split(',')
         x = float(x)
         y = float(y)
@@ -49,9 +52,9 @@ def getPartitionData(reducerID, numMapper):
             stub = raft_pb2_grpc.MapReduceStub(channel)
             print(f"Requesting data from Mapper {i}")
             request = raft_pb2.RequestPartitionDataRequest(reducerID=str(reducerID))
-            print("request generated")
+            print("request generated= ",request)
             response = stub.RequestPartitionData(request)
-            print("response received")
+            print("response received= ",response)
             tempData = convertBack(response.data)
             data.extend(tempData)
         except Exception as e:
@@ -99,6 +102,7 @@ def reduce(reducerID, numMapper):
     '''
     reducerID = int(reducerID)
     numMapper = int(numMapper)
+    print(f"Reducer {reducerID} received data from {numMapper} mappers")
     
     # Shuffle and sort intermediate data
     intermediate_data = shuffleSort(reducerID, numMapper)

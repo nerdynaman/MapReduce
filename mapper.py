@@ -14,6 +14,7 @@ def getData(reducerID, mapperID):
 		result.append(f"({key},({coordinates[0]},{coordinates[1]}))")
 
 	output = ",".join(result)
+	print(f"Reducer {reducerID} received data: {output}")
 	return(output)
 
 def distance(a, b):
@@ -21,7 +22,7 @@ def distance(a, b):
 	return the Euclidean distance between two data points a and b.
 	i.e. a = (x,y), b = (u,v), distance = sqrt((x-u)^2 + (y-v)^2)
 	'''
-	x1, y1 = a[0], a[1]
+	x1, y1 = (a[0]), a[1]
 	x2, y2 = b[0], b[1]
 	return ((x1-x2)**2 + (y1-y2)**2)**0.5
 
@@ -30,10 +31,11 @@ def findNearestCentroid(data, oldCentroids):
 	return index of the nearest centroid to which the data point belongs
 	data: a string of data point i.e. 'x,y'
 	'''
+	print(f"Finding nearest centroid for data {data} with old centroids {oldCentroids}")
 	# find the nearest centroid
 	# print(f"Finding nearest centroid for data {data} with old centroids {oldCentroids}")
 	nearestCentroid = 0
-	minDist = float('inf')
+	minDist = float(10000000000)
 	for j in range(len(oldCentroids)):
 		dist = distance(data, oldCentroids[j])
 		if dist < minDist:
@@ -64,16 +66,22 @@ def mapper(readIndiceA, readIndiceB, oldCentroids, mapperID):
 		x = float(dataRaw[i].split(',')[0])
 		y = float(dataRaw[i].split(',')[1])
 		data.append((x,y))
-	# old centroids is a string of format "(0.4,7.2),(0.8,9.8)," convert it to list of tuples
+	# old centroids is a string of format "(0.4,7.2),(0.8,9.8)," convert it to list of tuple
+	if oldCentroids[-1] == ',':
+			oldCentroids = oldCentroids[:-1]
+	oldCentroids = "[" + oldCentroids + "]"
 	oldCentroids = ast.literal_eval(oldCentroids)
 	print(oldCentroids)
 	# print(f"Mapper {mapperID} received data: {data} with len {len(data)}")
 	# find the nearest centroid for each data point and write in output file
 	with open(f'Data/Mapper/M{mapperID}/mapperOutput.txt', 'w') as f:
+		print(f"len of data: {len(data)}")
 		for i in range(len(data)):
 			nearestCentroid = findNearestCentroid(data[i], oldCentroids)
+			print(f"Mapper {mapperID} wrote data: {nearestCentroid} {data[i][0]},{data[i][1]} iteration {i}")
 			# print(f"Mapper {mapperID} wrote data: {nearestCentroid} {data[i][0]},{data[i][1]}")
 			f.write(str(nearestCentroid) + ' ' + str(data[i][0]) + ',' + str(data[i][1]) + '\n')
+	print(f"TRUEEEEE done")
 	return
 
 def partitionData(numReducer, mapperID):

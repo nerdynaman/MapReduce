@@ -174,7 +174,7 @@ class Master:
 
         for i in range(self.Reducer_count):  
             requests_list.append(raft_pb2.ReduceRequest(reducerId=str(i), numMapper=str(self.Mapper_count)))
-            print("Reducer request created successfully")
+            print(f"Reducer {i} request created successfully")
             dump_array.append("Reducer request created successfully\n")
             self.dump_file()
                                     
@@ -218,7 +218,7 @@ class Master:
             for i in range(self.Reducer_count):
                 if counter < len(pending_reducers) and self.reducer_dict[i] == True:
                     print(f"Sending Request to Reducer {i} now")
-                    requests_list[pending_reducers[counter]].reducerId = str(i)
+                    requests_list[pending_reducers[counter]].reducerId = str(pending_reducers[counter])
                     thread = threading.Thread(target=self.send_request, args=(grpc.insecure_channel(self.reducer_channel_mapping[i]), requests_list, pending_reducers[counter], True))
                     thread.start()
                     threader.append(thread)

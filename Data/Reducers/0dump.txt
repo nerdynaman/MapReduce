@@ -1,53 +1,21 @@
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
+Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
 Reducer 0 failing
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
@@ -67,6 +35,75 @@ Reducer 0 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
 Request received for reducer 0
@@ -76,24 +113,6 @@ Reducer 0 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
@@ -103,6 +122,1092 @@ Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
@@ -137,120 +1242,12 @@ Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
 Request received for reducer 1
 Request received for reducer 1
 Reducer 1 starting
@@ -262,6 +1259,20 @@ Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
@@ -271,14 +1282,6 @@ Request received for reducer 1
 Reducer 0 failing
 Request received for reducer 1
 Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
@@ -296,19 +1299,11 @@ Reducer 0 done successfully
 Request received for reducer 1
 Reducer 0 failing
 Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
+Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
@@ -322,33 +1317,13 @@ Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
 Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
-Request received for reducer 1
+Request received for reducer 0
 Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
@@ -372,33 +1347,25 @@ Request received for reducer 1
 Reducer 1 starting
 Reducer 1 done successfully
 Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
 Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
@@ -416,44 +1383,6 @@ Request received for reducer 1
 Reducer 1 starting
 Reducer 1 done successfully
 Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
@@ -466,6 +1395,58 @@ Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 1
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
@@ -473,6 +1454,24 @@ Request received for reducer 1
 Request received for reducer 1
 Reducer 1 starting
 Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Reducer 0 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
@@ -504,29 +1503,11 @@ Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
 Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting
 Reducer 0 done successfully
 Request received for reducer 1
 Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
 Request received for reducer 1
 Request received for reducer 1
 Reducer 1 starting
@@ -534,33 +1515,13 @@ Reducer 1 done successfully
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
+Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
+Reducer 0 failing
 Request received for reducer 0
+Reducer 0 failing
 Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
+Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
@@ -582,20 +1543,6 @@ Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Request received for reducer 0
@@ -611,1677 +1558,6 @@ Request received for reducer 0
 Reducer 0 failing
 Request received for reducer 0
 Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Reducer 0 failing
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 1
-Request received for reducer 1
-Reducer 1 starting
-Reducer 1 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Reducer 0 failing
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
-Request received for reducer 0
-Request received for reducer 0
-Reducer 0 starting
-Reducer 0 done successfully
 Request received for reducer 0
 Request received for reducer 0
 Reducer 0 starting

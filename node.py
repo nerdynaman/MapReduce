@@ -86,9 +86,10 @@ class Node:
 			print(f"Request received for reducer {reducerID}")
 			self.dumpReducer(self.id, f"Request received for reducer {reducerID}")
 			self.dumpReducer(self.id, f"Reducer {reducerID} starting")
-			reducer.reduce(reducerID=reducerID, numMapper=numMapper)
+			d = reducer.reduce(reducerID=reducerID, numMapper=numMapper)
 			response = raft_pb2.ReduceResponse()
-			response.updated_centroid = reducer.getCentroids(self.id)
+			# response.updated_centroid = reducer.getCentroids(request.reducerId)
+			response.updated_centroid = d
 			self.dumpReducer(self.id, f"Reducer {reducerID} done successfully")
 			return response
 		except Exception as e:

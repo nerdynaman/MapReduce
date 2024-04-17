@@ -28,8 +28,22 @@ Reducer Stub Created
 Reducer request sent successfully
 Reducer Stub Created
 Reducer request sent successfully
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: Failed
+Reducer1 request failed
+Pending reducers: [0, 1]
+Reducer Stub Created
+Reducer Stub Created
 Reducer work for the reducer id 1 conducted successfully: (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024)
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
 Reducer work for the reducer id 0 conducted successfully: (15.07057957137555,33.61090803671815),(23.860369254811488,74.24312355848332)
+Pending reducers: []
 Reducer task completed successfully
 Iteration 1 started
 List creation completed successfully
@@ -43,12 +57,12 @@ Mapper 0 request sent successfully
 Mapper Stub Created
 Mapper 1 request sent successfully
 Length of threader 2
-Mapper work for the mapper id 0 conducted successfully: False
-Mapper0 request failed
-Mapper work for the mapper id 1 conducted successfully: True
-Pending mappers: [0]
-Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: False
 Mapper work for the mapper id 0 conducted successfully: True
+Mapper1 request failed
+Pending mappers: [1]
+Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: True
 Mapper task completed successfully
 Reducer task started
 Reducer request created successfully
@@ -57,41 +71,47 @@ Reducer Stub Created
 Reducer request sent successfully
 Reducer Stub Created
 Reducer request sent successfully
-Reducer work for the reducer id 0 conducted successfully: (48.647093961027316,40.34361790803803),(17.173305901756482,55.75039825063328)
-Reducer work for the reducer id 1 conducted successfully: (73.64432086982833,47.367097224995604),(30.876329816943127,64.45053777271839)
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: Failed
+Reducer1 request failed
+Pending reducers: [0, 1]
+Reducer Stub Created
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: Failed
+Pending reducers: [0, 1]
+Pending reducers: [0, 1]
+Reducer Stub Created
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: (77.10445602551547,31.629872611207205),(38.995037725124035,66.142220943289)
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (26.823767859982244,42.03667056720535),(23.382048217455278,62.71753283826762)
+Pending reducers: []
 Reducer task completed successfully
 Iteration 2 started
 List creation completed successfully
 List creation completed successfully
-Current centroid list: [['48.647093961027316', '40.34361790803803'], ['17.173305901756482', '55.75039825063328'], ['73.64432086982833', '47.367097224995604'], ['30.876329816943127', '64.45053777271839']]
+Current centroid list: [['77.10445602551547', '31.629872611207205'], ['38.995037725124035', '66.142220943289'], ['26.823767859982244', '42.03667056720535'], ['23.382048217455278', '62.71753283826762']]
 Mapper task started
-Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (48.647093961027316,40.34361790803803),(17.173305901756482,55.75039825063328),(73.64432086982833,47.367097224995604),(30.876329816943127,64.45053777271839) and number of reducer as 2
-Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (48.647093961027316,40.34361790803803),(17.173305901756482,55.75039825063328),(73.64432086982833,47.367097224995604),(30.876329816943127,64.45053777271839) and number of reducer as 2
-Mapper Stub Created
-Mapper 0 request sent successfully
-Mapper Stub Created
-Mapper 1 request sent successfully
-Length of threader 2
-Mapper work for the mapper id 1 conducted successfully: True
-Mapper work for the mapper id 0 conducted successfully: True
-Mapper task completed successfully
-Reducer task started
-Reducer request created successfully
-Reducer request created successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer work for the reducer id 0 conducted successfully: (39.11032840801412,39.71862112843152),(80.42453215340463,42.03826088928027)
-Reducer work for the reducer id 1 conducted successfully: (11.755685196452216,47.61585989523562),(29.374883787051427,77.67187006040398)
-Reducer task completed successfully
-Iteration 3 started
-List creation completed successfully
-List creation completed successfully
-Current centroid list: [['39.11032840801412', '39.71862112843152'], ['80.42453215340463', '42.03826088928027'], ['11.755685196452216', '47.61585989523562'], ['29.374883787051427', '77.67187006040398']]
-Mapper task started
-Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (39.11032840801412,39.71862112843152),(80.42453215340463,42.03826088928027),(11.755685196452216,47.61585989523562),(29.374883787051427,77.67187006040398) and number of reducer as 2
-Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (39.11032840801412,39.71862112843152),(80.42453215340463,42.03826088928027),(11.755685196452216,47.61585989523562),(29.374883787051427,77.67187006040398) and number of reducer as 2
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (77.10445602551547,31.629872611207205),(38.995037725124035,66.142220943289),(26.823767859982244,42.03667056720535),(23.382048217455278,62.71753283826762) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (77.10445602551547,31.629872611207205),(38.995037725124035,66.142220943289),(26.823767859982244,42.03667056720535),(23.382048217455278,62.71753283826762) and number of reducer as 2
 Mapper Stub Created
 Mapper 0 request sent successfully
 Mapper Stub Created
@@ -111,67 +131,63 @@ Reducer Stub Created
 Reducer request sent successfully
 Reducer Stub Created
 Reducer request sent successfully
-Reducer work for the reducer id 0 conducted successfully: (39.11032840801412,39.71862112843152),(46.09069294988107,47.84400223698979)
-Reducer work for the reducer id 1 conducted successfully: (46.09069294988108,47.84400223698978),(21.426152187268755,78.73476136249019)
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: (88.28421977908025,12.067049557489574),(23.860369254811488,74.24312355848332)
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (78.45961024698572,49.53106372222794),(20.336072103366487,35.098561643264375)
+Pending reducers: []
+Reducer task completed successfully
+Iteration 3 started
+List creation completed successfully
+List creation completed successfully
+Current centroid list: [['88.28421977908025', '12.067049557489574'], ['23.860369254811488', '74.24312355848332'], ['78.45961024698572', '49.53106372222794'], ['20.336072103366487', '35.098561643264375']]
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (88.28421977908025,12.067049557489574),(23.860369254811488,74.24312355848332),(78.45961024698572,49.53106372222794),(20.336072103366487,35.098561643264375) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (88.28421977908025,12.067049557489574),(23.860369254811488,74.24312355848332),(78.45961024698572,49.53106372222794),(20.336072103366487,35.098561643264375) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper work for the mapper id 1 conducted successfully: True
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: (23.860369254811488,74.24312355848332),(20.336072103366487,35.098561643264375)
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: Failed
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (88.28421977908025,12.067049557489574),(78.45961024698572,49.53106372222794)
+Pending reducers: []
 Reducer task completed successfully
 Iteration 4 started
-List creation completed successfully
-List creation completed successfully
-Current centroid list: [['39.11032840801412', '39.71862112843152'], ['46.09069294988107', '47.84400223698979'], ['46.09069294988108', '47.84400223698978'], ['21.426152187268755', '78.73476136249019']]
-Mapper task started
-Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (39.11032840801412,39.71862112843152),(46.09069294988107,47.84400223698979),(46.09069294988108,47.84400223698978),(21.426152187268755,78.73476136249019) and number of reducer as 2
-Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (39.11032840801412,39.71862112843152),(46.09069294988107,47.84400223698979),(46.09069294988108,47.84400223698978),(21.426152187268755,78.73476136249019) and number of reducer as 2
-Mapper Stub Created
-Mapper 0 request sent successfully
-Mapper Stub Created
-Mapper 1 request sent successfully
-Length of threader 2
-Mapper work for the mapper id 0 conducted successfully: False
-Mapper work for the mapper id 1 conducted successfully: False
-Mapper0 request failed
-Mapper1 request failed
-Pending mappers: [0, 1]
-Mapper Stub Created
-Mapper Stub Created
-Mapper work for the mapper id 1 conducted successfully: True
-Mapper work for the mapper id 0 conducted successfully: True
-Mapper task completed successfully
-Reducer task started
-Reducer request created successfully
-Reducer request created successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer work for the reducer id 0 conducted successfully: (15.07057957137555,33.61090803671815),(74.7976992550574,42.12135568706614)
-Reducer work for the reducer id 1 conducted successfully: (23.860369254811488,74.24312355848332)
-Reducer task completed successfully
-Iteration 5 started
-List creation completed successfully
-List creation completed successfully
-Current centroid list: [['15.07057957137555', '33.61090803671815'], ['74.7976992550574', '42.12135568706614'], ['23.860369254811488', '74.24312355848332']]
-Mapper task started
-Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (15.07057957137555,33.61090803671815),(74.7976992550574,42.12135568706614),(23.860369254811488,74.24312355848332) and number of reducer as 2
-Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (15.07057957137555,33.61090803671815),(74.7976992550574,42.12135568706614),(23.860369254811488,74.24312355848332) and number of reducer as 2
-Mapper Stub Created
-Mapper 0 request sent successfully
-Mapper Stub Created
-Mapper 1 request sent successfully
-Length of threader 2
-Mapper work for the mapper id 1 conducted successfully: True
-Mapper work for the mapper id 0 conducted successfully: True
-Mapper task completed successfully
-Reducer task started
-Reducer request created successfully
-Reducer request created successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer Stub Created
-Reducer request sent successfully
-Reducer work for the reducer id 0 conducted successfully: (15.07057957137555,33.61090803671815),(23.860369254811488,74.24312355848332)
-Reducer work for the reducer id 1 conducted successfully: (74.7976992550574,42.12135568706614)
-Reducer task completed successfully
-Iteration 6 started
 List creation completed successfully
 List creation completed successfully
 The centroids have converged, Exiting!
