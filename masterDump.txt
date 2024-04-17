@@ -1,0 +1,75 @@
+Master in action
+Splitting of input data completed successfully with line division as 10 and cenroid list as (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647)
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper0 request failed
+Mapper work for the mapper id 1 conducted successfully: True
+Pending mappers: [0]
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: (33.32548408403273,30.59813162914506),(17.264329180409852,70.85045898102638)
+Reducer work for the reducer id 1 conducted successfully: (48.98885379897693,60.2333420187891),(85.32433236307622,38.85085293948647)
+Reducer task completed successfully
+Iteration 1 started
+List creation completed successfully
+List creation completed successfully
+Current centroid list: [['33.32548408403273', '30.59813162914506'], ['17.264329180409852', '70.85045898102638'], ['48.98885379897693', '60.2333420187891'], ['85.32433236307622', '38.85085293948647']]
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (33.32548408403273,30.59813162914506),(17.264329180409852,70.85045898102638),(48.98885379897693,60.2333420187891),(85.32433236307622,38.85085293948647) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (33.32548408403273,30.59813162914506),(17.264329180409852,70.85045898102638),(48.98885379897693,60.2333420187891),(85.32433236307622,38.85085293948647) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 1 conducted successfully: False
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper1 request failed
+Pending mappers: [1]
+Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: False
+Pending mappers: [1]
+Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: False
+Pending mappers: [1]
+Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: True
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: (20.81470294613843,71.41718563594556),(84.04949212376809,39.74965219536913)
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: 
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: 
+Pending reducers: [0]
+Pending reducers: [0]
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (20.81470294613843,71.41718563594556),(84.04949212376809,39.74965219536913)
+Pending reducers: []
+Reducer task completed successfully

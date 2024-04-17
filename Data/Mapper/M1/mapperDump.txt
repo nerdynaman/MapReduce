@@ -1,0 +1,121 @@
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 0 and end index 10 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024),(15.07057957137555,33.61090803671815),(23.860369254811488,74.24312355848332) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 received request with start index 0 and end index 10 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (73.64432086982833,47.36709722499561),(30.876329816943127,64.45053777271839),(73.64432086982833,47.36709722499561),(30.876329816943127,64.45053777271839) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for reducer 1
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for reducer 1
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (15.07057957137555,33.61090803671815),(23.860369254811488,74.24312355848332),(15.07057957137555,33.61090803671815),(23.860369254811488,74.24312355848332) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 received request with start index 0 and end index 10 with array of old centroids (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for reducer 1
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 10 and end index 20 with array of old centroids (33.32548408403273,30.59813162914506),(17.264329180409852,70.85045898102638),(48.98885379897693,60.2333420187891),(85.32433236307622,38.85085293948647) and number of reducer 2
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 0

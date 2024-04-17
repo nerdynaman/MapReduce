@@ -13,6 +13,7 @@ import math
 import threading
 import time
 
+dump_array = []
 
 class Master:
     def __init__(self, no_of_mapper, no_of_reducer, no_of_centroids, no_of_iterations):
@@ -30,36 +31,33 @@ class Master:
         self.current_centroid_list = ""
         self.threader = []
 
-    def dump_file(self, line_is):
-        current_lines = []
-        try:
-            with open("Dump.txt", "r") as f:
-                current_lines = f.readlines()
-        except:
-            pass
-        with open("Dump.txt", "w") as f:
-            current_lines.append(line_is + "\n")
-            f.writelines(current_lines)
+    def dump_file(self):
+        with open("masterDump.txt", "w") as f:
+            f.writelines(dump_array)
         
     def send_request(self, channel, requests_list, index, Reducer = False):
         try:
             if Reducer == False:
                 channel_stub = raft_pb2_grpc.MapReduceStub(channel)
                 print("Mapper Stub Created")
-                self.dump_file("Mapper Stub Created")
+                dump_array.append("Mapper Stub Created\n")
+                self.dump_file()
                 response = channel_stub.map(requests_list[index])
                 print(f"Mapper work for the mapper id {index} conducted successfully:", response.success)
-                self.dump_file(f"Mapper work for the mapper id {index} conducted successfully: {response.success}")
+                dump_array.append(f"Mapper work for the mapper id {index} conducted successfully: {response.success}\n")
+                self.dump_file()
                 if response.success == True:
                     self.threader.remove(index)
                 return response.success
             else:
                 channel_stub = raft_pb2_grpc.MapReduceStub(channel)
                 print("Reducer Stub Created")
-                self.dump_file("Reducer Stub Created")
+                dump_array.append("Reducer Stub Created\n")
+                self.dump_file()
                 response = channel_stub.reduce(requests_list[index])
                 print(f"Reducer work for the reducer id {index} conducted successfully:", response.updated_centroid)
-                self.dump_file(f"Reducer work for the reducer id {index} conducted successfully: {response.updated_centroid}")
+                dump_array.append(f"Reducer work for the reducer id {index} conducted successfully: {response.updated_centroid}\n")
+                self.dump_file()
                 if len(response.updated_centroid) != 0:
                     self.threader.remove(index)
                     if len(self.current_centroid_list) == 0:
@@ -73,7 +71,8 @@ class Master:
 
     def mapper_task(self):
         print("Mapper task started")
-        self.dump_file("Mapper task started")
+        dump_array.append("Mapper task started\n")
+        self.dump_file()
         for i in self.mapper_dict.keys():
             self.mapper_dict[i] = True
         threader = []
@@ -94,7 +93,8 @@ class Master:
             d = str(self.Reducer_count) 
             requests_list.append(raft_pb2.MapperInput(startIndex=a, endIndex=b, oldCentroids=c, numReducer=d))
             print(f"Mapper {i} request created successfully with start index as {a} and end index as {b} and old centroids as {c} and number of reducer as {d}")
-            self.dump_file(f"Mapper {i} request created successfully with start index as {a} and end index as {b} and old centroids as {c} and number of reducer as {d}")
+            dump_array.append(f"Mapper {i} request created successfully with start index as {a} and end index as {b} and old centroids as {c} and number of reducer as {d}\n")
+            self.dump_file()
                                     
         for i in range(self.Mapper_count):
             thread = threading.Thread(target=self.send_request, args=(grpc.insecure_channel(self.mapper_channel_mapping[i]), requests_list, i))
@@ -102,17 +102,20 @@ class Master:
             threader.append(thread)
             self.threader.append(i)
             print(f"Mapper {i} request sent successfully")
-            self.dump_file(f"Mapper {i} request sent successfully")
+            dump_array.append(f"Mapper {i} request sent successfully\n")
+            self.dump_file()
         
         print("Length of threader", len(threader))
-        self.dump_file(f"Length of threader {len(threader)}")
+        dump_array.append(f"Length of threader {len(threader)}\n")
+        self.dump_file()
         for i in range(len(threader)):
             ll = threader[i].join()
             if i in self.threader:
                 pending_mappers.append(i) 
                 self.mapper_dict[i] = False
                 print(f"Mapper{i} request failed")
-                self.dump_file(f"Mapper{i} request failed")
+                dump_array.append(f"Mapper{i} request failed\n")
+                self.dump_file()
 
         while len(pending_mappers) != 0 :
             falseFlag = False
@@ -124,7 +127,8 @@ class Master:
                 for i in self.mapper_dict.keys():
                     self.mapper_dict[i] = True
             print("Pending mappers: ", pending_mappers)
-            self.dump_file(f"Pending mappers: {pending_mappers}")
+            dump_array.append(f"Pending mappers: {pending_mappers}\n")
+            self.dump_file()
             threader = []
             counter = 0
             dictionn = {}
@@ -151,12 +155,14 @@ class Master:
                     pending_mappers.remove(dictionn[threader[i]])
                 del dictionn[threader[i]]
         print("Mapper task completed successfully")
-        self.dump_file("Mapper task completed successfully")
+        dump_array.append("Mapper task completed successfully\n")
+        self.dump_file()
         return
     
     def reducer_task(self):
         print("Reducer task started")
-        self.dump_file("Reducer task started")
+        dump_array.append("Reducer task started\n")
+        self.dump_file()
         for i in self.reducer_dict.keys():
             self.reducer_dict[i] = True
         self.prev_centroid_list = self.current_centroid_list
@@ -169,7 +175,8 @@ class Master:
         for i in range(self.Reducer_count):  
             requests_list.append(raft_pb2.ReduceRequest(reducerId=str(i), numMapper=str(self.Mapper_count)))
             print("Reducer request created successfully")
-            self.dump_file("Reducer request created successfully")
+            dump_array.append("Reducer request created successfully\n")
+            self.dump_file()
                                     
         for i in range(self.Reducer_count):
             print("reducer",self.reducer_channel_mapping)
@@ -180,7 +187,8 @@ class Master:
             threader.append(thread)
             self.threader.append(i)
             print("Reducer request sent successfully")
-            self.dump_file("Reducer request sent successfully")
+            dump_array.append("Reducer request sent successfully\n")
+            self.dump_file()
         
         for i in range(len(threader)):
             ll = threader[i].join()
@@ -188,7 +196,8 @@ class Master:
                 pending_reducers.append(i) 
                 self.reducer_dict[i] = False
                 print(f"Reducer{i} request failed")
-                self.dump_file(f"Reducer{i} request failed")
+                dump_array.append(f"Reducer{i} request failed\n")
+                self.dump_file()
 
         while len(pending_reducers) != 0:
             falseFlag = False
@@ -200,13 +209,14 @@ class Master:
                 for i in self.reducer_dict.keys():
                     self.reducer_dict[i] = True
             print("Pending reducers: ", pending_reducers)
-            self.dump_file(f"Pending reducers: {pending_reducers}")
+            dump_array.append(f"Pending reducers: {pending_reducers}\n")
+            self.dump_file()
             threader = []
             counter = 0
             dictionn = {}
             
             for i in range(self.Reducer_count):
-                if counter < len(pending_reducers) and i not in pending_reducers and self.reducer_dict[i] == True:
+                if counter < len(pending_reducers) and self.reducer_dict[i] == True:
                     thread = threading.Thread(target=self.send_request, args=(grpc.insecure_channel(self.reducer_channel_mapping[i]), requests_list, pending_reducers[counter], True))
                     thread.start()
                     threader.append(thread)
@@ -225,23 +235,31 @@ class Master:
                 del dictionn[threader[i]]
                     
             print("Pending reducers: ", pending_reducers)
-            self.dump_file(f"Pending reducers: {pending_reducers}")
+            dump_array.append(f"Pending reducers: {pending_reducers}\n")
+            self.dump_file()
         print("Reducer task completed successfully")
-        self.dump_file(f"Reducer task completed successfully")
+        dump_array.append(f"Reducer task completed successfully\n")
+        self.dump_file()
         return
 
     def split_input(self, file):
-        with open(file, "r") as f:
-            data = f.readlines()
-            self.data_length = len(data)
-            self.line_division = math.ceil(self.data_length/self.Mapper_count)
-            for i in range(len(data)):
-                if i >= self.Centroid_count:
-                    break
-                self.current_centroid_list += "(" + data[i].strip() + ")" +","
-            self.current_centroid_list = self.current_centroid_list[:-1]
-            print("Splitting of input data completed successfully with line division as ", self.line_division, "and cenroid list as ", self.current_centroid_list)
-            self.dump_file(f"Splitting of input data completed successfully with line division as {self.line_division} and cenroid list as {self.current_centroid_list}")
+        try:
+            with open(file, "r") as f:
+                data = f.readlines()
+                self.data_length = len(data)
+                self.line_division = math.ceil(self.data_length/self.Mapper_count)
+                for i in range(len(data)):
+                    if i >= self.Centroid_count:
+                        break
+                    self.current_centroid_list += "(" + data[i].strip() + ")" +","
+                self.current_centroid_list = self.current_centroid_list[:-1]
+                print("Splitting of input data completed successfully with line division as ", self.line_division, "and cenroid list as ", self.current_centroid_list)
+                dump_array.append(f"Splitting of input data completed successfully with line division as {self.line_division} and cenroid list as {self.current_centroid_list}\n")
+                self.dump_file()
+        except Exception as e:
+            print("Error in splitting the input data", e)
+            dump_array.append(f"Error in splitting the input data {e}\n")
+            self.dump_file()
     
     def List_creator(self, list_string):
         centroid_list = list_string.split("),(")
@@ -259,7 +277,8 @@ class Master:
             formatted_y = round(y, 4)
             float_listy.append([formatted_x, formatted_y])
         print("List creation completed successfully")
-        self.dump_file("List creation completed successfully")
+        dump_array.append("List creation completed successfully\n")
+        self.dump_file()
         return centroid_list, float_listy
     
     def Master_in_action(self, file):
@@ -272,7 +291,8 @@ class Master:
         self.reducer_task()
         for i in range(self.Iteration_count - 1):
             print(f"Iteration {i+1} started")
-            self.dump_file(f"Iteration {i+1} started")
+            dump_array.append(f"Iteration {i+1} started\n")
+            self.dump_file()
             temp_converge = True
             prev_centroid_list, prev_centroid_list_float = self.List_creator(self.prev_centroid_list)
             current_centroid_list, current_centroid_list_float = self.List_creator(self.current_centroid_list)
@@ -289,9 +309,11 @@ class Master:
                     # print("HAHA")
             if (len(self.prev_centroid_list) != 0) and temp_converge:
                 print("The centroids have converged, Exiting!")
-                self.dump_file("The centroids have converged, Exiting!")
+                dump_array.append("The centroids have converged, Exiting!\n")
+                self.dump_file()
                 break
-            self.dump_file(f"Current centroid list: {current_centroid_list}")
+            dump_array.append(f"Current centroid list: {current_centroid_list}\n")
+            self.dump_file()
             self.mapper_task()
             self.reducer_task()
         
@@ -310,7 +332,7 @@ if __name__ == '__main__':
     Mapper_count = 2
     Reducer_count = 2
     Centroid_count = 4
-    Iteration_count = 100
+    Iteration_count = 2
     Master_init = Master(Mapper_count, Reducer_count, Centroid_count, Iteration_count)
     for i in range(Mapper_count):
         # Master_init.mapper_channel_mapping[i] = ("localhost:40001")
@@ -326,5 +348,5 @@ if __name__ == '__main__':
     Master_init.reducer_channel_mapping[1] = ("localhost:50004")
     file_path = "Data/Input/points.txt"
     print("Master in action")
-    Master_init.dump_file("Master in action")
+    dump_array.append("Master in action\n")
     Master_init.Master_in_action(file_path)
