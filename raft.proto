@@ -12,3 +12,27 @@ message MapperInput {
 message MapperOutput {
   bool success = 1;
 }
+
+message ReduceRequest {
+  string reducerId = 1;
+  string numMapper = 2;
+}
+
+message ReduceResponse {
+  string updated_centroid = 1;
+}
+
+message RequestPartitionDataRequest {
+    string reducerID = 1;
+}
+
+message RequestPartitionDataResponse {
+    string data = 1;
+}
+
+
+service MapReduce {
+  rpc map(MapperInput) returns (MapperOutput) {}
+  rpc reduce(ReduceRequest) returns (ReduceResponse) {}
+  rpc RequestPartitionData(RequestPartitionDataRequest) returns (RequestPartitionDataResponse);
+}
