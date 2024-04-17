@@ -32,6 +32,8 @@ class Node:
 			os.mkdir('Data/Reducers')
 		if not os.path.exists(f'Data/Reducers/{reducerID}dump.txt'):
 			open(f'Data/Reducers/{reducerID}dump.txt', 'w').close()
+		with open(f'Data/Reducers/{reducerID}dump.txt', 'a') as f:
+			f.write(message + '\n')
 
 	def RequestPartitionData(self, request, context):
 		self.dumpMaper(self.id, f"Request received for reducer {request.reducerID}")
@@ -78,7 +80,7 @@ class Node:
 			if random.random() < 0.5:
 				print(f"Reducer {self.id} failed")
 				self.dumpReducer(self.id, f"Reducer {self.id} failing")
-				return raft_pb2.ReduceResponse(updated_centroid="")
+				return raft_pb2.ReduceResponse(updated_centroid="Failed")
 			reducerID = request.reducerId
 			numMapper = request.numMapper
 			print(f"Request received for reducer {reducerID}")

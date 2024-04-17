@@ -58,7 +58,7 @@ class Master:
                 print(f"Reducer work for the reducer id {index} conducted successfully:", response.updated_centroid)
                 dump_array.append(f"Reducer work for the reducer id {index} conducted successfully: {response.updated_centroid}\n")
                 self.dump_file()
-                if len(response.updated_centroid) != 0:
+                if response.updated_centroid != "Failed":
                     self.threader.remove(index)
                     if len(self.current_centroid_list) == 0:
                         self.current_centroid_list = response.updated_centroid
@@ -208,7 +208,7 @@ class Master:
             if falseFlag == False:
                 for i in self.reducer_dict.keys():
                     self.reducer_dict[i] = True
-            print("Pending reducers: ", pending_reducers)
+            print("Initial Pending reducers: ", pending_reducers)
             dump_array.append(f"Pending reducers: {pending_reducers}\n")
             self.dump_file()
             threader = []
@@ -217,6 +217,8 @@ class Master:
             
             for i in range(self.Reducer_count):
                 if counter < len(pending_reducers) and self.reducer_dict[i] == True:
+                    print(f"Sending Request to Reducer {i} now")
+                    requests_list[pending_reducers[counter]].reducerId = str(i)
                     thread = threading.Thread(target=self.send_request, args=(grpc.insecure_channel(self.reducer_channel_mapping[i]), requests_list, pending_reducers[counter], True))
                     thread.start()
                     threader.append(thread)
@@ -228,13 +230,14 @@ class Master:
 
             for i in range(len(threader)):
                 threader[i].join()
+                print(f"Reducer {i} completed its task")
                 if dictionn[threader[i]] in self.threader:
                     self.reducer_dict[i] = False 
                 else:
                     pending_reducers.remove(dictionn[threader[i]])
                 del dictionn[threader[i]]
                     
-            print("Pending reducers: ", pending_reducers)
+            print("Final Pending reducers: ", pending_reducers)
             dump_array.append(f"Pending reducers: {pending_reducers}\n")
             self.dump_file()
         print("Reducer task completed successfully")
@@ -262,6 +265,8 @@ class Master:
             self.dump_file()
     
     def List_creator(self, list_string):
+        if list_string == "":
+            return [], []
         centroid_list = list_string.split("),(")
         float_listy = []
         # print(len(list_string))
@@ -271,8 +276,8 @@ class Master:
         for i in range(len(centroid_list)):
             centroid_list[i] = centroid_list[i].split(",")
             # print("X and Y are", centroid_list)
-            x = float(centroid_list[i][0])
-            y = float(centroid_list[i][1])
+            x = float(centroid_list[i][0].strip("("))
+            y = float(centroid_list[i][1].strip(")"))
             formatted_x = round(x, 4)
             formatted_y = round(y, 4)
             float_listy.append([formatted_x, formatted_y])
@@ -332,7 +337,7 @@ if __name__ == '__main__':
     Mapper_count = 2
     Reducer_count = 2
     Centroid_count = 4
-    Iteration_count = 2
+    Iteration_count = 50
     Master_init = Master(Mapper_count, Reducer_count, Centroid_count, Iteration_count)
     for i in range(Mapper_count):
         # Master_init.mapper_channel_mapping[i] = ("localhost:40001")
