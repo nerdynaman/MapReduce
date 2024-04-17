@@ -1,0 +1,124 @@
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 2
+Request received for reducer 2
+Reducer 2 starting
+Reducer 2 done successfully
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 2
+Reducer 3 failing
+Request received for reducer 0
+Reducer 3 failing
+Request received for reducer 0
+Reducer 3 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 1
+Reducer 3 failing
+Request received for reducer 4
+Reducer 3 failing
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 0
+Reducer 3 failing
+Request received for reducer 0
+Reducer 3 failing
+Request received for reducer 0
+Request received for reducer 0
+Reducer 0 starting
+Reducer 0 done successfully
+Request received for reducer 2
+Request received for reducer 2
+Reducer 2 starting
+Reducer 2 done successfully
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 1
+Reducer 3 failing
+Request received for reducer 1
+Request received for reducer 1
+Reducer 1 starting
+Reducer 1 done successfully
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 2
+Request received for reducer 2
+Reducer 2 starting
+Reducer 2 done successfully
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 1
+Reducer 3 failing
+Request received for reducer 1
+Reducer 3 failing
+Request received for reducer 4
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 4
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 3
+Reducer 3 failing
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 2
+Request received for reducer 2
+Reducer 2 starting
+Reducer 2 done successfully
+Request received for reducer 4
+Request received for reducer 4
+Reducer 4 starting
+Reducer 4 done successfully
+Request received for reducer 3
+Request received for reducer 3
+Reducer 3 starting
+Reducer 3 done successfully
+Request received for reducer 4
+Reducer 3 failing
+Request received for reducer 3
+Reducer 3 failing

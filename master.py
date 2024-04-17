@@ -60,10 +60,11 @@ class Master:
                 self.dump_file()
                 if response.updated_centroid != "Failed":
                     self.threader.remove(index)
-                    if len(self.current_centroid_list) == 0:
-                        self.current_centroid_list = response.updated_centroid
-                    else:
-                        self.current_centroid_list += ","+ response.updated_centroid
+                    if len(response.updated_centroid) != 0:
+                        if len(self.current_centroid_list) == 0:
+                            self.current_centroid_list = response.updated_centroid
+                        else:
+                            self.current_centroid_list += ","+ response.updated_centroid
             
         except grpc.RpcError as e:
             print(f"Error: {e.code()}")
@@ -86,6 +87,9 @@ class Master:
                 c = self.current_centroid_list
                 d = str(self.Reducer_count)
                 requests_list.append(raft_pb2.MapperInput(startIndex=a, endIndex=b, oldCentroids=c, numReducer=d))
+                print(f"Mapper {i} request created successfully with start index as {a} and end index as {b} and old centroids as {c} and number of reducer as {d}")
+                dump_array.append(f"Mapper {i} request created successfully with start index as {a} and end index as {b} and old centroids as {c} and number of reducer as {d}\n")
+                self.dump_file()
                 break   
             a = str(i * self.line_division)
             b = str((i + 1) * (self.line_division))
@@ -330,27 +334,19 @@ class Master:
         
 
 if __name__ == '__main__':
-    # Mapper_count = int(input("No. of Mappers: "))
-    # Reducer_count = int(input("No. of Reducers: "))
-    # Centroid_count = int(input("No. of Centroids: "))
-    # Iteration_count = int(input("No. of Iterations: "))
-    Mapper_count = 2
-    Reducer_count = 2
-    Centroid_count = 4
-    Iteration_count = 50
+    Mapper_count = int(input("No. of Mappers: "))
+    Reducer_count = int(input("No. of Reducers: "))
+    Centroid_count = int(input("No. of Centroids: "))
+    Iteration_count = int(input("No. of Iterations: "))
     Master_init = Master(Mapper_count, Reducer_count, Centroid_count, Iteration_count)
     for i in range(Mapper_count):
         # Master_init.mapper_channel_mapping[i] = ("localhost:40001")
-        # Master_init.mapper_channel_mapping[i] = ("localhost:"+input(f"Enter Mapper {i} ip address with port number:"))
+        Master_init.mapper_channel_mapping[i] = ("localhost:"+input(f"Enter Mapper {i} ip address with port number:"))
         Master_init.mapper_dict[i] = True
     for i in range(Reducer_count):
         Master_init.reducer_dict[i] = True
         # Master_init.reducer_channel_mapping[i] = ("localhost:40002")
-        # Master_init.reducer_channel_mapping[i] = ("localhost:"+input(f"Enter Reducer {i} ip address with port number:"))
-    Master_init.mapper_channel_mapping[0] = ("localhost:50001")
-    Master_init.mapper_channel_mapping[1] = ("localhost:50002")
-    Master_init.reducer_channel_mapping[0] = ("localhost:50003")
-    Master_init.reducer_channel_mapping[1] = ("localhost:50004")
+        Master_init.reducer_channel_mapping[i] = ("localhost:"+input(f"Enter Reducer {i} ip address with port number:"))
     file_path = "Data/Input/points.txt"
     print("Master in action")
     dump_array.append("Master in action\n")

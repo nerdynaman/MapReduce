@@ -61,6 +61,7 @@ def mapper(readIndiceA, readIndiceB, oldCentroids, mapperID):
 	with open('Data/Input/points.txt', 'r') as f:
 		dataRaw = f.readlines()
 	dataRaw = dataRaw[readIndiceA:readIndiceB]
+	print(f"Mapper {mapperID} received data: {dataRaw} with len {len(dataRaw)}")
 	data = []
 	for i in range(len(dataRaw)):
 		x = float(dataRaw[i].split(',')[0])
@@ -74,7 +75,10 @@ def mapper(readIndiceA, readIndiceB, oldCentroids, mapperID):
 	print(oldCentroids)
 	# print(f"Mapper {mapperID} received data: {data} with len {len(data)}")
 	# find the nearest centroid for each data point and write in output file
-	with open(f'Data/Mapper/M{mapperID}/mapperOutput.txt', 'w') as f:
+#  check if mapperOutput.txt exists then append to it otherwise create it
+	if not os.path.exists(f'Data/Mapper/M{mapperID}/mapperOutput.txt'):
+		open(f'Data/Mapper/M{mapperID}/mapperOutput.txt', 'w').close()
+	with open(f'Data/Mapper/M{mapperID}/mapperOutput.txt', 'a') as f:
 		print(f"len of data: {len(data)}")
 		for i in range(len(data)):
 			nearestCentroid = findNearestCentroid(data[i], oldCentroids)
