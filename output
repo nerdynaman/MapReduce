@@ -1,0 +1,958 @@
+Master in action
+Splitting of input data completed successfully with line division as  10 and cenroid list as  (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647)
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (2.4253966361924117, 14.200140998826638),(81.430136979439, 50.33034624768575),(12.630863179096908, 96.83125993903082),(85.32433236307622, 38.85085293948647) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper work for the mapper id 1 conducted successfully: True
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024)
+Pending reducers:  [0]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024)
+Reducer 0 completed its task
+Pending reducers:  []
+Reducer task completed successfully
+Iteration 1 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024),(68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024),(68.79441084704695,50.452557906355196),(86.80427607107823,25.458951248488024) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper0 request failed
+Mapper work for the mapper id 1 conducted successfully: False
+Mapper1 request failed
+Pending mappers:  [0, 1]
+Mapper Stub Created
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper work for the mapper id 1 conducted successfully: False
+Pending mappers:  [0, 1]
+Mapper Stub Created
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper work for the mapper id 1 conducted successfully: False
+Pending mappers:  [0, 1]
+Mapper Stub Created
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper work for the mapper id 1 conducted successfully: True
+dict 0
+pending mappers [0, 1]
+dict 1
+pending mappers [1]
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 1 conducted successfully: (86.80427607107823,25.458951248488024)
+Reducer work for the reducer id 0 conducted successfully: (31.404103585464945,57.669604657520075)
+Reducer task completed successfully
+Iteration 2 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (86.80427607107823,25.458951248488024),(31.404103585464945,57.669604657520075) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (86.80427607107823,25.458951248488024),(31.404103585464945,57.669604657520075) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 1 conducted successfully: False
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper1 request failed
+Pending mappers:  [1]
+Mapper Stub Created
+Mapper work for the mapper id 1 conducted successfully: True
+dict 1
+pending mappers [1]
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer work for the reducer id 0 conducted successfully: (37.01727182387491,56.01751850849819)
+Reducer1 request failed
+Pending reducers:  [1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: (37.01727182387491,56.01751850849819)
+Reducer 0 completed its task
+Pending reducers:  []
+Reducer task completed successfully
+Iteration 3 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (37.01727182387491,56.01751850849819),(37.01727182387491,56.01751850849819) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (37.01727182387491,56.01751850849819),(37.01727182387491,56.01751850849819) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper0 request failed
+Mapper work for the mapper id 1 conducted successfully: True
+Pending mappers:  [0]
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: True
+dict 0
+pending mappers [0]
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: (45.98550257840693,48.935876968849705)
+Reducer work for the reducer id 1 conducted successfully: (23.382048217455278,62.71753283826764)
+Reducer task completed successfully
+Iteration 4 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (45.98550257840693,48.935876968849705),(23.382048217455278,62.71753283826764) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (45.98550257840693,48.935876968849705),(23.382048217455278,62.71753283826764) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper0 request failed
+Mapper work for the mapper id 1 conducted successfully: True
+Pending mappers:  [0]
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: False
+Pending mappers:  [0]
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: True
+dict 0
+pending mappers [0]
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer0 request failed
+Reducer1 request failed
+Pending reducers:  [0, 1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer 0 completed its task
+Reducer work for the reducer id 1 conducted successfully: (19.887623007498004,61.487864586851785)
+Reducer 1 completed its task
+Pending reducers:  [0]
+Pending reducers:  [0]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [0]
+Pending reducers:  [0]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 0 conducted successfully: (19.887623007498004,61.487864586851785)
+Reducer 0 completed its task
+Pending reducers:  []
+Reducer task completed successfully
+Iteration 5 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (19.887623007498004,61.487864586851785),(19.887623007498004,61.487864586851785) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (19.887623007498004,61.487864586851785),(19.887623007498004,61.487864586851785) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper work for the mapper id 1 conducted successfully: True
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer work for the reducer id 0 conducted successfully: (36.944120834026265,54.44853931661687)
+Reducer1 request failed
+Pending reducers:  [1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: (36.944120834026265,54.44853931661687)
+Reducer 0 completed its task
+Pending reducers:  []
+Reducer task completed successfully
+Iteration 6 started
+List creation completed successfully
+List creation completed successfully
+Mapper task started
+Mapper 0 request created successfully with start index as 0 and end index as 10 and old centroids as (36.944120834026265,54.44853931661687),(36.944120834026265,54.44853931661687) and number of reducer as 2
+Mapper 1 request created successfully with start index as 10 and end index as 20 and old centroids as (36.944120834026265,54.44853931661687),(36.944120834026265,54.44853931661687) and number of reducer as 2
+Mapper Stub Created
+Mapper 0 request sent successfully
+Mapper Stub Created
+Mapper 1 request sent successfully
+Length of threader 2
+Mapper work for the mapper id 0 conducted successfully: False
+Mapper work for the mapper id 1 conducted successfully: False
+Mapper0 request failed
+Mapper1 request failed
+Pending mappers:  [0, 1]
+Mapper Stub Created
+Mapper Stub Created
+Mapper work for the mapper id 0 conducted successfully: True
+Mapper work for the mapper id 1 conducted successfully: True
+dict 0
+pending mappers [0, 1]
+dict 1
+pending mappers [1]
+Mapper task completed successfully
+Reducer task started
+Reducer request created successfully
+Reducer request created successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 0
+Reducer channel mapping localhost:50003
+Reducer Stub Created
+Reducer request sent successfully
+reducer {0: 'localhost:50003', 1: 'localhost:50004'}
+index 1
+Reducer channel mapping localhost:50004
+Reducer Stub Created
+Reducer request sent successfully
+Reducer work for the reducer id 0 conducted successfully: 
+Reducer0 request failed
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer1 request failed
+Pending reducers:  [0, 1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer work for the reducer id 0 conducted successfully: (36.944120834026265,54.44853931661687)
+Reducer 0 completed its task
+Reducer 1 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 0 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 
+Reducer 0 completed its task
+Pending reducers:  [1]
+Pending reducers:  [1]
+Sending Request to Reducer 1 now
+Reducer Stub Created
+Reducer work for the reducer id 1 conducted successfully: 

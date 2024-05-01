@@ -2,3 +2,131 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
+import raft_pb2 as raft__pb2
+
+
+class MapReduceStub(object):
+    """Missing associated documentation comment in .proto file."""
+
+    def __init__(self, channel):
+        """Constructor.
+
+        Args:
+            channel: A grpc.Channel.
+        """
+        self.map = channel.unary_unary(
+                '/mapreduce.MapReduce/map',
+                request_serializer=raft__pb2.MapperInput.SerializeToString,
+                response_deserializer=raft__pb2.MapperOutput.FromString,
+                )
+        self.reduce = channel.unary_unary(
+                '/mapreduce.MapReduce/reduce',
+                request_serializer=raft__pb2.ReduceRequest.SerializeToString,
+                response_deserializer=raft__pb2.ReduceResponse.FromString,
+                )
+        self.RequestPartitionData = channel.unary_unary(
+                '/mapreduce.MapReduce/RequestPartitionData',
+                request_serializer=raft__pb2.RequestPartitionDataRequest.SerializeToString,
+                response_deserializer=raft__pb2.RequestPartitionDataResponse.FromString,
+                )
+
+
+class MapReduceServicer(object):
+    """Missing associated documentation comment in .proto file."""
+
+    def map(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def reduce(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def RequestPartitionData(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+
+def add_MapReduceServicer_to_server(servicer, server):
+    rpc_method_handlers = {
+            'map': grpc.unary_unary_rpc_method_handler(
+                    servicer.map,
+                    request_deserializer=raft__pb2.MapperInput.FromString,
+                    response_serializer=raft__pb2.MapperOutput.SerializeToString,
+            ),
+            'reduce': grpc.unary_unary_rpc_method_handler(
+                    servicer.reduce,
+                    request_deserializer=raft__pb2.ReduceRequest.FromString,
+                    response_serializer=raft__pb2.ReduceResponse.SerializeToString,
+            ),
+            'RequestPartitionData': grpc.unary_unary_rpc_method_handler(
+                    servicer.RequestPartitionData,
+                    request_deserializer=raft__pb2.RequestPartitionDataRequest.FromString,
+                    response_serializer=raft__pb2.RequestPartitionDataResponse.SerializeToString,
+            ),
+    }
+    generic_handler = grpc.method_handlers_generic_handler(
+            'mapreduce.MapReduce', rpc_method_handlers)
+    server.add_generic_rpc_handlers((generic_handler,))
+
+
+ # This class is part of an EXPERIMENTAL API.
+class MapReduce(object):
+    """Missing associated documentation comment in .proto file."""
+
+    @staticmethod
+    def map(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/mapreduce.MapReduce/map',
+            raft__pb2.MapperInput.SerializeToString,
+            raft__pb2.MapperOutput.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def reduce(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/mapreduce.MapReduce/reduce',
+            raft__pb2.ReduceRequest.SerializeToString,
+            raft__pb2.ReduceResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def RequestPartitionData(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/mapreduce.MapReduce/RequestPartitionData',
+            raft__pb2.RequestPartitionDataRequest.SerializeToString,
+            raft__pb2.RequestPartitionDataResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

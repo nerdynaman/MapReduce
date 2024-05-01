@@ -1,0 +1,230 @@
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 2
+Request received for reducer 1
+Request received for reducer 0
+Request received for reducer 3
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1996.08,-2022.7756521739136),(-2021.757,-2008.23475),(-12.263912647058824,-16.22036411764706),(-1998.0349999999996,-1993.8066666666666),(-6.022256,-6.01748875) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 4
+Request received for reducer 3
+Request received for reducer 2
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-2023.164109589041,-2008.3052054794525),(-6.022256,-6.01748875),(-2000.0596000000003,-1992.9087999999997),(-1152.9581628749997,-1169.9896547500005),(-1263.462098152174,-1280.015786739131) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 3
+Request received for reducer 1
+Request received for reducer 4
+Request received for reducer 2
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 0
+Request received for reducer 4
+Request received for reducer 1
+Request received for reducer 2
+Request received for reducer 3
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-8.610259975609754,-10.247949268292686),(-1803.1218689939021,-1806.2358914024398),(-1509.903278414141,-1505.2169808080812),(-1528.314951597222,-1541.8811970833333),(-2000.0596000000003,-1992.9087999999997) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 68 and end index 100 with array of old centroids (-8.610259975609754,-10.247949268292686),(-1803.1218689939021,-1806.2358914024398),(-1509.903278414141,-1505.2169808080812),(-1528.314951597222,-1541.8811970833333),(-2000.0596000000003,-1992.9087999999997) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 2
+Request received for reducer 4
+Request received for reducer 0
+Request received for reducer 3
+Request received for reducer 1
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 1
+Request received for reducer 0
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1341.7825725964117,-1337.9230865470856),(-1565.9716988253963,-1569.0294830158741),(-1528.314951597222,-1541.8811970833333),(-2007.5802999999992,-2006.0163000000002),(-1302.668626370689,-1303.4403096551725) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 received request with start index 0 and end index 34 with array of old centroids (-1341.7825725964117,-1337.9230865470856),(-1565.9716988253963,-1569.0294830158741),(-1528.314951597222,-1541.8811970833333),(-2007.5802999999992,-2006.0163000000002),(-1302.668626370689,-1303.4403096551725) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 68 and end index 100 with array of old centroids (-1341.7825725964117,-1337.9230865470856),(-1565.9716988253963,-1569.0294830158741),(-1528.314951597222,-1541.8811970833333),(-2007.5802999999992,-2006.0163000000002),(-1302.668626370689,-1303.4403096551725) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 3
+Request received for reducer 4
+Request received for reducer 1
+Request received for reducer 0
+Request received for reducer 2
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-2008.6546857142855,-2007.8888000000009),(-1073.5193278156025,-1074.6309363120567),(-1341.7825725964117,-1337.9230865470856),(-1565.9716988253963,-1569.0294830158741),(-1528.314951597222,-1541.8811970833333) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 0 and end index 34 with array of old centroids (-2008.6546857142855,-2007.8888000000009),(-1073.5193278156025,-1074.6309363120567),(-1341.7825725964117,-1337.9230865470856),(-1565.9716988253963,-1569.0294830158741),(-1528.314951597222,-1541.8811970833333) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 2
+Request received for reducer 4
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 3
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1528.314951597222,-1541.8811970833333),(-1073.5193278156025,-1074.6309363120567),(-1207.5571703709668,-1204.3578000000002),(-1692.1408752954553,-1694.4147056439406),(-2008.6546857142855,-2007.8888000000009) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 0
+Request received for reducer 4
+Request received for reducer 1
+Request received for reducer 2
+Request received for reducer 3
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1348.9774253125001,-1349.7768389732141),(-1590.511308160143,-1592.886934092528),(-1215.978028162939,-1211.9297460063904),(-1641.563331736841,-1658.3082756842105),(-2007.9732085561493,-2006.9851336898403) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 failing
+Request received for mapper 1
+Mapper 1 received request with start index 68 and end index 100 with array of old centroids (-1348.9774253125001,-1349.7768389732141),(-1590.511308160143,-1592.886934092528),(-1215.978028162939,-1211.9297460063904),(-1641.563331736841,-1658.3082756842105),(-2007.9732085561493,-2006.9851336898403) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 3
+Request received for reducer 4
+Request received for reducer 2
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1301.7098423166658,-1315.5264357499996),(-2007.9732085561493,-2006.9851336898403),(-1678.905105598315,-1680.8430856179787),(-1126.7981875088753,-1123.2482147929),(-1514.8076363545158,-1515.481344247492) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for reducer 3
+Request received for reducer 2
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1772.3945969952827,-1771.8401231132086),(-1301.7098423166658,-1315.5264357499996),(-1678.905105598315,-1680.8430856179787),(-1287.2017612058116,-1284.3506213075066),(-1514.8076363545158,-1515.481344247492) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 1
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 4
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 1
+Request received for reducer 4
+Request received for reducer 0
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1079.047211317241,-1090.9452302758618),(-1586.5161144556957,-1586.303764556963),(-1287.2017612058116,-1284.3506213075066),(-1614.1284044652414,-1614.7268233422465),(-1736.5354004477977,-1738.1880475174014) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 2
+Request received for reducer 4
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 3
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1079.047211317241,-1090.9452302758618),(-1680.2685150779516,-1680.816797171492),(-1287.2017612058116,-1284.3506213075066),(-1641.893469640353,-1643.6029267105264),(-1586.5161144556957,-1586.303764556963) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 0
+Request received for reducer 3
+Request received for reducer 2
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 received request with start index 34 and end index 68 with array of old centroids (-1586.5161144556957,-1586.303764556963),(-1557.0895773783805,-1558.849939043659),(-1079.047211317241,-1090.9452302758618),(-1398.3009577418047,-1395.9338454918025),(-1680.2685150779516,-1680.816797171492) and number of reducer 5
+Mapper 1 done
+Partitioning done by mapper 1
+Mapper success: true
+ done
+Request received for reducer 3
+Request received for reducer 2
+Request received for reducer 0
+Request received for reducer 1
+Request received for reducer 4
+Request received for mapper 1
+Mapper 1 failing
+Request received for reducer 1
+Request received for reducer 0
+Request received for reducer 2
+Request received for reducer 3
+Request received for reducer 4

@@ -14,10 +14,25 @@ message MapperOutput {
 }
 
 message ReduceRequest {
-  string key = 1;
-  repeated string value = 2;
+  string reducerId = 1;
+  string numMapper = 2;
 }
 
 message ReduceResponse {
   string updated_centroid = 1;
+}
+
+message RequestPartitionDataRequest {
+    string reducerID = 1;
+}
+
+message RequestPartitionDataResponse {
+    string data = 1;
+}
+
+
+service MapReduce {
+  rpc map(MapperInput) returns (MapperOutput) {}
+  rpc reduce(ReduceRequest) returns (ReduceResponse) {}
+  rpc RequestPartitionData(RequestPartitionDataRequest) returns (RequestPartitionDataResponse);
 }
