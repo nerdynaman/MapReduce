@@ -107,7 +107,7 @@ def reduce(reducerID, numMapper):
     # Shuffle and sort intermediate data
     intermediate_data = shuffleSort(reducerID, numMapper)
     print(intermediate_data)
-    
+
     # Apply Reduce function and generate final output with updated centroids
     centroids = {}
     for line in intermediate_data:

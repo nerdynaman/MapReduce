@@ -107,9 +107,3 @@ def partitionData(numReducer, mapperID):
 		with open(f'Data/Mapper/M{mapperID}/reducer{key % numReducer}.txt', 'a') as f:
 			f.write(data[i])
 	return
-
-# Example usage
-if __name__ == "__main__":
-    # map(0,15,[(1,2),(3,4),(5,6),(7,8)],0)  # Run reducer with ID 1
-    # partitionData(3,0)  # Run reducer with ID 1
-    getData(0,0)

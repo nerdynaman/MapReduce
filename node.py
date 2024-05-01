@@ -98,6 +98,14 @@ class Node:
 			response.updated_centroid = ""
 			return response
 
+	def reduce(self, request, context):
+		reducerID = request.reducerID
+		numMapper = request.numMapper
+		reducer.reduce(reducerID=reducerID, numMapper=numMapper)
+		response = raft_pb2.ReduceResponse()
+		response.success = True
+		return response
+
 def startNode(nodeId:int, nodeIp:str, nodePort:int):
 	# making grpc connections
 	server = grpc.server(concurrent.futures.ThreadPoolExecutor(max_workers=10))
